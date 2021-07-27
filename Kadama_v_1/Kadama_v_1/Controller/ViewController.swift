@@ -19,7 +19,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .lightGray
+//        view.backgroundColor = .lightGray
         setupNavbar()
         setupTableView()
         tableView.delegate = self
@@ -216,14 +216,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func setupTableView() {
         tableView = UITableView(frame: view.frame)
-        tableView.backgroundColor = .lightGray
+//        tableView.backgroundColor = .lightGray
         tableView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(tableView)
         NSLayoutConstraint.activate([tableView.topAnchor.constraint(equalTo: view.topAnchor, constant: 100),
                                      tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
                                      tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
                                      tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor)])
-        tableView.backgroundColor = .lightGray
         tableView.register(TableViewCell.self, forCellReuseIdentifier: "Cell")
         
         refreshController.attributedTitle = NSAttributedString(string: "Pull to refresh")
@@ -245,7 +244,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100
+        return 200
     }
     
 }
