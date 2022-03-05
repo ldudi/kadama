@@ -10,6 +10,8 @@
 		2908178727D1067A00E6D75A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2908178627D1067A00E6D75A /* UIViewExtension.swift */; };
 		2945D58C27D0C045003CEB3D /* PokemonListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2945D58A27D0C045003CEB3D /* PokemonListTableViewCell.swift */; };
 		2945D58D27D0C045003CEB3D /* PokemonListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2945D58B27D0C045003CEB3D /* PokemonListTableViewCell.xib */; };
+		29F62B5727D3242E00BBA1EB /* PokemonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F62B5527D3242E00BBA1EB /* PokemonDetailsViewController.swift */; };
+		29F62B5827D3242E00BBA1EB /* PokemonDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29F62B5627D3242E00BBA1EB /* PokemonDetailsViewController.xib */; };
 		2DE3CDE626755B3600BE939D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE3CDE526755B3600BE939D /* AppDelegate.swift */; };
 		2DE3CDE826755B3600BE939D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE3CDE726755B3600BE939D /* SceneDelegate.swift */; };
 		2DE3CDEA26755B3600BE939D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE3CDE926755B3600BE939D /* ViewController.swift */; };
@@ -49,6 +51,8 @@
 		2908178627D1067A00E6D75A /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		2945D58A27D0C045003CEB3D /* PokemonListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListTableViewCell.swift; sourceTree = "<group>"; };
 		2945D58B27D0C045003CEB3D /* PokemonListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonListTableViewCell.xib; sourceTree = "<group>"; };
+		29F62B5527D3242E00BBA1EB /* PokemonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailsViewController.swift; sourceTree = "<group>"; };
+		29F62B5627D3242E00BBA1EB /* PokemonDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonDetailsViewController.xib; sourceTree = "<group>"; };
 		2DE3CDE226755B3600BE939D /* Kadama_v_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kadama_v_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE3CDE526755B3600BE939D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DE3CDE726755B3600BE939D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 				2DE3CDE926755B3600BE939D /* ViewController.swift */,
 				2DE3CDE526755B3600BE939D /* AppDelegate.swift */,
 				2DE3CDE726755B3600BE939D /* SceneDelegate.swift */,
+				29F62B5527D3242E00BBA1EB /* PokemonDetailsViewController.swift */,
+				29F62B5627D3242E00BBA1EB /* PokemonDetailsViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -296,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29F62B5827D3242E00BBA1EB /* PokemonDetailsViewController.xib in Resources */,
 				2DE3CDF526755B3800BE939D /* LaunchScreen.storyboard in Resources */,
 				2945D58D27D0C045003CEB3D /* PokemonListTableViewCell.xib in Resources */,
 				2DE3CDF226755B3800BE939D /* Assets.xcassets in Resources */,
@@ -335,6 +342,7 @@
 				2DE3CDF026755B3600BE939D /* Kadama_v_1.xcdatamodeld in Sources */,
 				2908178727D1067A00E6D75A /* UIViewExtension.swift in Sources */,
 				2945D58C27D0C045003CEB3D /* PokemonListTableViewCell.swift in Sources */,
+				29F62B5727D3242E00BBA1EB /* PokemonDetailsViewController.swift in Sources */,
 				2DE3CE48267635B000BE939D /* Pokemon+CoreDataProperties.swift in Sources */,
 				2DE3CE282676009200BE939D /* PokemonList.swift in Sources */,
 			);

@@ -278,6 +278,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.row)
+        
+        let viewController = PokemonDetailsViewController()
+        let pokemon = pokemonForCells[indexPath.row]
+        viewController.value = 7
+        viewController.pokemon = pokemon
+        print(viewController.value)
+        self.present(viewController, animated: true, completion: nil)
+        
     }
     
 }
